@@ -13,6 +13,9 @@
 		F36A7EDD29CA0E7800AD2730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36A7EDB29CA0E7800AD2730 /* Main.storyboard */; };
 		F36A7EDF29CA0E7900AD2730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36A7EDE29CA0E7900AD2730 /* Assets.xcassets */; };
 		F36A7EE229CA0E7900AD2730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36A7EE029CA0E7900AD2730 /* LaunchScreen.storyboard */; };
+		F36A7EED29CA142900AD2730 /* more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F36A7EEA29CA142900AD2730 /* more@2x.png */; };
+		F36A7EEE29CA142900AD2730 /* swift_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F36A7EEB29CA142900AD2730 /* swift_logo@3x.png */; };
+		F36A7EEF29CA142900AD2730 /* arrow-back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F36A7EEC29CA142900AD2730 /* arrow-back@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		F36A7EDE29CA0E7900AD2730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F36A7EE129CA0E7900AD2730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F36A7EE329CA0E7900AD2730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36A7EEA29CA142900AD2730 /* more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more@2x.png"; sourceTree = "<group>"; };
+		F36A7EEB29CA142900AD2730 /* swift_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swift_logo@3x.png"; sourceTree = "<group>"; };
+		F36A7EEC29CA142900AD2730 /* arrow-back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-back@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		F36A7EC929CA0E7800AD2730 = {
 			isa = PBXGroup;
 			children = (
+				F36A7EE929CA141200AD2730 /* Resources */,
 				F36A7ED429CA0E7800AD2730 /* Chapter03-NavigationBar */,
 				F36A7ED329CA0E7800AD2730 /* Products */,
 			);
@@ -65,6 +72,16 @@
 				F36A7EE329CA0E7900AD2730 /* Info.plist */,
 			);
 			path = "Chapter03-NavigationBar";
+			sourceTree = "<group>";
+		};
+		F36A7EE929CA141200AD2730 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F36A7EEC29CA142900AD2730 /* arrow-back@2x.png */,
+				F36A7EEA29CA142900AD2730 /* more@2x.png */,
+				F36A7EEB29CA142900AD2730 /* swift_logo@3x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +145,9 @@
 				F36A7EE229CA0E7900AD2730 /* LaunchScreen.storyboard in Resources */,
 				F36A7EDF29CA0E7900AD2730 /* Assets.xcassets in Resources */,
 				F36A7EDD29CA0E7800AD2730 /* Main.storyboard in Resources */,
+				F36A7EEE29CA142900AD2730 /* swift_logo@3x.png in Resources */,
+				F36A7EED29CA142900AD2730 /* more@2x.png in Resources */,
+				F36A7EEF29CA142900AD2730 /* arrow-back@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
