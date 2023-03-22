@@ -13,6 +13,13 @@
 		F37EBAA129CB33A9007A2DD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37EBA9F29CB33A9007A2DD0 /* Main.storyboard */; };
 		F37EBAA329CB33AA007A2DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F37EBAA229CB33AA007A2DD0 /* Assets.xcassets */; };
 		F37EBAA629CB33AA007A2DD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37EBAA429CB33AA007A2DD0 /* LaunchScreen.storyboard */; };
+		F37EBAAE29CB365A007A2DD0 /* MapAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37EBAAD29CB365A007A2DD0 /* MapAlertViewController.swift */; };
+		F37EBAB029CB44B0007A2DD0 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37EBAAF29CB44B0007A2DD0 /* MapKitViewController.swift */; };
+		F37EBAB429CB472B007A2DD0 /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = F37EBAB229CB472B007A2DD0 /* note.png */; };
+		F37EBAB529CB472B007A2DD0 /* rating5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F37EBAB329CB472B007A2DD0 /* rating5@2x.png */; };
+		F37EBAB729CB4747007A2DD0 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37EBAB629CB4747007A2DD0 /* ImageViewController.swift */; };
+		F37EBAB929CB49CE007A2DD0 /* ControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37EBAB829CB49CE007A2DD0 /* ControlViewController.swift */; };
+		F37EBABD29CB5107007A2DD0 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37EBABC29CB5107007A2DD0 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		F37EBAA229CB33AA007A2DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F37EBAA529CB33AA007A2DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F37EBAA729CB33AA007A2DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F37EBAAD29CB365A007A2DD0 /* MapAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAlertViewController.swift; sourceTree = "<group>"; };
+		F37EBAAF29CB44B0007A2DD0 /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		F37EBAB229CB472B007A2DD0 /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note.png; sourceTree = "<group>"; };
+		F37EBAB329CB472B007A2DD0 /* rating5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rating5@2x.png"; sourceTree = "<group>"; };
+		F37EBAB629CB4747007A2DD0 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		F37EBAB829CB49CE007A2DD0 /* ControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlViewController.swift; sourceTree = "<group>"; };
+		F37EBABC29CB5107007A2DD0 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,7 @@
 		F37EBA8D29CB33A9007A2DD0 = {
 			isa = PBXGroup;
 			children = (
+				F37EBAB129CB4713007A2DD0 /* Resources */,
 				F37EBA9829CB33A9007A2DD0 /* Chapter03-Alert */,
 				F37EBA9729CB33A9007A2DD0 /* Products */,
 			);
@@ -63,8 +78,22 @@
 				F37EBAA229CB33AA007A2DD0 /* Assets.xcassets */,
 				F37EBAA429CB33AA007A2DD0 /* LaunchScreen.storyboard */,
 				F37EBAA729CB33AA007A2DD0 /* Info.plist */,
+				F37EBAAD29CB365A007A2DD0 /* MapAlertViewController.swift */,
+				F37EBAAF29CB44B0007A2DD0 /* MapKitViewController.swift */,
+				F37EBAB629CB4747007A2DD0 /* ImageViewController.swift */,
+				F37EBAB829CB49CE007A2DD0 /* ControlViewController.swift */,
+				F37EBABC29CB5107007A2DD0 /* ListViewController.swift */,
 			);
 			path = "Chapter03-Alert";
+			sourceTree = "<group>";
+		};
+		F37EBAB129CB4713007A2DD0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F37EBAB229CB472B007A2DD0 /* note.png */,
+				F37EBAB329CB472B007A2DD0 /* rating5@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +154,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F37EBAB529CB472B007A2DD0 /* rating5@2x.png in Resources */,
 				F37EBAA629CB33AA007A2DD0 /* LaunchScreen.storyboard in Resources */,
+				F37EBAB429CB472B007A2DD0 /* note.png in Resources */,
 				F37EBAA329CB33AA007A2DD0 /* Assets.xcassets in Resources */,
 				F37EBAA129CB33A9007A2DD0 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F37EBAAE29CB365A007A2DD0 /* MapAlertViewController.swift in Sources */,
+				F37EBAB029CB44B0007A2DD0 /* MapKitViewController.swift in Sources */,
 				F37EBA9E29CB33A9007A2DD0 /* ViewController.swift in Sources */,
 				F37EBA9A29CB33A9007A2DD0 /* AppDelegate.swift in Sources */,
+				F37EBAB729CB4747007A2DD0 /* ImageViewController.swift in Sources */,
 				F37EBA9C29CB33A9007A2DD0 /* SceneDelegate.swift in Sources */,
+				F37EBABD29CB5107007A2DD0 /* ListViewController.swift in Sources */,
+				F37EBAB929CB49CE007A2DD0 /* ControlViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
