@@ -57,7 +57,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             tbProxy.tintColor = UIColor.white
             
             // 6. 탭 바에 배경 이미지를 설정한다.
-            tbProxy.backgroundImage = UIImage(named: "menubar-bg-mini")?.withRenderingMode(.alwaysOriginal)
+            let bgImage = UIImage(named: "menubar-bg-mini")!
+            tbProxy.backgroundColor = UIColor(patternImage: bgImage)
+            
+            //tbProxy.backgroundImage = UIImage(named: "menubar-bg-mini")?.withRenderingMode(.alwaysOriginal)
         }
         guard let _ = (scene as? UIWindowScene) else { return }
     }
