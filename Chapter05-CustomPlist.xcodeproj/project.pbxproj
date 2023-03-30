@@ -13,6 +13,8 @@
 		F3A10AA129D5D6D500AC78CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A10A9F29D5D6D500AC78CE /* Main.storyboard */; };
 		F3A10AA329D5D6D600AC78CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A10AA229D5D6D600AC78CE /* Assets.xcassets */; };
 		F3A10AA629D5D6D600AC78CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A10AA429D5D6D600AC78CE /* LaunchScreen.storyboard */; };
+		F3A10AAE29D5D90600AC78CE /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A10AAD29D5D90600AC78CE /* ListViewController.swift */; };
+		F3A10AB029D5F29500AC78CE /* UserInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3A10AAF29D5F29500AC78CE /* UserInfo.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F3A10AA229D5D6D600AC78CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3A10AA529D5D6D600AC78CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3A10AA729D5D6D600AC78CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A10AAD29D5D90600AC78CE /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		F3A10AAF29D5F29500AC78CE /* UserInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UserInfo.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				F3A10AA229D5D6D600AC78CE /* Assets.xcassets */,
 				F3A10AA429D5D6D600AC78CE /* LaunchScreen.storyboard */,
 				F3A10AA729D5D6D600AC78CE /* Info.plist */,
+				F3A10AAD29D5D90600AC78CE /* ListViewController.swift */,
+				F3A10AAF29D5F29500AC78CE /* UserInfo.plist */,
 			);
 			path = "Chapter05-CustomPlist";
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				F3A10AA629D5D6D600AC78CE /* LaunchScreen.storyboard in Resources */,
 				F3A10AA329D5D6D600AC78CE /* Assets.xcassets in Resources */,
 				F3A10AA129D5D6D500AC78CE /* Main.storyboard in Resources */,
+				F3A10AB029D5F29500AC78CE /* UserInfo.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			files = (
 				F3A10A9E29D5D6D500AC78CE /* ViewController.swift in Sources */,
 				F3A10A9A29D5D6D500AC78CE /* AppDelegate.swift in Sources */,
+				F3A10AAE29D5D90600AC78CE /* ListViewController.swift in Sources */,
 				F3A10A9C29D5D6D500AC78CE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
