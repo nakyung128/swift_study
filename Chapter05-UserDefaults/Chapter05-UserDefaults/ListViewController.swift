@@ -34,8 +34,28 @@ class ListViewController: UITableViewController {
         self.present(alert, animated: false, completion: nil)
     }
     
+    public enum GenderType: Int {
+        case male = 0
+        case femail = 1
+        
+        func getGenderValue(value: Int) -> GenderType? {
+            switch value {
+            case 0:
+                return .male
+            case 1:
+                return .femail
+            default:
+                return nil;
+            }
+        }
+        
+        func getGenderCode(value: GenderType) -> Int {
+            return value.rawValue
+        }
+    }
+    
     @IBAction func changeGender(_ sender: UISegmentedControl) {
-        let value = sender.selectedSegmentIndex // 0이면 남자, 1이면 여자
+        let value = sender.selectedSegmentIndex
         
         let plist = UserDefaults.standard // 기본 저장소 객체를 가져온다.
         plist.set(value, forKey: "gender") // "gender"라는 키로 값을 저장한다.
